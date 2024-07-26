@@ -1,5 +1,5 @@
 # SimplestPushNotification
-Firebase Cloud Messaing を利用した PUSH 通知テストアプリ
+Firebase Cloud Messaing を利用した PUSH 通知テスト web アプリ
 
 デバイストークンの取得と PUSH 通知の表示のみを行う
 
