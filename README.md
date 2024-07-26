@@ -1,5 +1,5 @@
 # SimplestPushNotification
-SimplestPushNotification は PUSH 通知のテスト用webアプリケーションであり、
+Firebase Cloud Messaing を利用した PUSH 通知テストアプリ
 デバイストークンの取得と PUSH 通知の表示のみを行う
 
 # 実行方法
