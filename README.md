@@ -9,7 +9,7 @@ Firebase Cloud Messaing を利用した PUSH 通知テスト web アプリ
 3. ブラウザのリンクに `localhost:<指定PORT番号>` を入力
 
 # 事前準備
-1. `./script.js` の Firebase 設定情報を必要に応じて書き換える
+1. Firebase コンソールの「プロジェクトの設定」 > 「全般」 > 「SDK の設定と構成」から Firebase 設定情報をコピーし、`./script.js` の下記部分を置き換える
 ```javascript
 var firebaseConfig = {
     apiKey: "",
