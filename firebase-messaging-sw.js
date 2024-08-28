@@ -9,7 +9,7 @@ self.addEventListener('push', function (event) {
     var pinpointPayload = payloadData.data;
     var title = pinpointPayload["pinpoint.notification.title"];
     var body = pinpointPayload["pinpoint.notification.body"];
-    var icon = "/images/icon-192x192.png";
+    var icon = pinpointPayload["pinpoint.notification.icon"];
     var notificationUrl = pinpointPayload["pinpoint.url"];
 
     // NOTE: PUSH 通知を表示
